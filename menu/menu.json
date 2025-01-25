@@ -1,0 +1,89 @@
+{
+    "es": {
+      "title": "Planes y Tarifas - Startups",
+      "navbar": "Startups",
+      "footer": "© 2025 Startups. Todos los derechos reservados.",
+      "change_language": "Cambiar idioma",
+      "menu_items": [
+        {
+          "name": "Inicio",
+          "link": "../index.html?lang=es"
+        },
+        {
+          "name": "Planes y Tarifas",
+          "link": "index.html?lang=es"
+        },
+        {
+          "name": "Registrar Membresía",
+          "link": "../registrar-membresia/index.html?lang=es"
+        },
+        {
+          "name": "Clases y Actividades",
+          "link": "../clases-y-actividades/index.html?lang=es"
+        },
+        {
+          "name": "Estadísticas Personales",
+          "link": "../estadisticas-personales/index.html?lang=es"
+        },
+        {
+          "name": "Consejos de Entrenamiento",
+          "link": "../consejos-entrenamiento/index.html?lang=es"
+        },
+        {
+          "name": "Eventos Especiales",
+          "link": "../eventos-especiales/index.html?lang=es"
+        }
+      ],
+      "plans": {
+        "monthly_plan": "Plan mensual",
+        "annual_plan": "Plan anual",
+        "special_promotions": "Promociones especiales",
+        "compare_plans": "Comparar planes"
+      }
+    },
+    "en": {
+      "title": "Plans and Pricing - Startups",
+      "navbar": "Startups",
+      "footer": "© 2025 Startups. All rights reserved.",
+      "change_language": "Change language",
+      "menu_items": [
+        {
+          "name": "Home",
+          "link": "../index.html?lang=en"
+        },
+        {
+          "name": "Plans and Pricing",
+          "link": "index.html?lang=en"
+        },
+        {
+          "name": "Register Membership",
+          "link": "../register-membership/index.html?lang=en"
+        },
+        {
+          "name": "Classes and Activities",
+          "link": "../classes-and-activities/index.html?lang=en"
+        },
+        {
+          "name": "Personal Stats",
+          "link": "../personal-stats/index.html?lang=en"
+        },
+        {
+          "name": "Training Tips",
+          "link": "../training-tips/index.html?lang=en"
+        },
+        {
+          "name": "Special Events",
+          "link": "../special-events/index.html?lang=en"
+        }
+      ],
+      "plans": {
+        "monthly_plan": "Monthly Plan",
+        "annual_plan": "Annual Plan",
+        "special_promotions": "Special Promotions",
+        "compare_plans": "Compare Plans"
+      }
+    }
+
+    
+  }
+  

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <!-- Español -->
+    <language code="es">
+        <navbar>Startups</navbar>
+        <footer>© 2025 Startups. Todos los derechos reservados.</footer>
+        <button-change-language>Cambiar idioma</button-change-language>
+        
+        <!-- Menú -->
+        <item>
+            <nombre>Inicio</nombre>
+            <link>index.html</link>
+        </item>
+        <item>
+            <nombre>Planes y Tarifas</nombre>
+            <link>/planes-y-tarifas/index.html</link>
+        </item>
+        <item>
+            <nombre>Registrar Membresía</nombre>
+            <link>/registrar-membresia/index.html</link>
+        </item>
+        <item>
+            <nombre>Clases y Actividades</nombre>
+            <link>/clases-actividades/index.html</link>
+        </item>
+        <item>
+            <nombre>Estadísticas Personales</nombre>
+            <link>/estadisticas-personales/index.html</link>
+        </item>
+        <item>
+            <nombre>Consejos de Entrenamiento</nombre>
+            <link>/consejos-entrenamiento/index.html</link>
+        </item>
+        <item>
+            <nombre>Eventos Especiales</nombre>
+            <link>/eventos-especiales/index.html</link>
+        </item>
+
+        <!-- Secciones -->
+        <section>
+            <title>Maratones y Retos</title>
+        </section>
+        <section>
+            <title>Charlas Motivacionales</title>
+        </section>
+        <section>
+            <title>Entrenamiento en Grupo</title>
+        </section>
+        <section>
+            <title>FAQ y Soporte</title>
+        </section>
+    </language>
+
+    <!-- Inglés -->
+    <language code="en">
+        <navbar>Startups</navbar>
+        <footer>© 2025 Startups. All rights reserved.</footer>
+        <button-change-language>Change language</button-change-language>
+        
+        <!-- Menú -->
+        <item>
+            <nombre>Home</nombre>
+            <link>index.html</link>
+        </item>
+        <item>
+            <nombre>Plans and Pricing</nombre>
+            <link>/planes-y-tarifas/index.html</link>
+        </item>
+        <item>
+            <nombre>Register Membership</nombre>
+            <link>/registrar-membresia/index.html</link>
+        </item>
+        <item>
+            <nombre>Classes and Activities</nombre>
+            <link>/clases-actividades/index.html</link>
+        </item>
+        <item>
+            <nombre>Personal Stats</nombre>
+            <link>/estadisticas-personales/index.html</link>
+        </item>
+        <item>
+            <nombre>Training Tips</nombre>
+            <link>/consejos-entrenamiento/index.html</link>
+        </item>
+        <item>
+            <nombre>Special Events</nombre>
+            <link>/eventos-especiales/index.html</link>
+        </item>
+
+        <!-- Secciones -->
+        <section>
+            <title>Marathons and Challenges</title>
+        </section>
+        <section>
+            <title>Motivational Talks</title>
+        </section>
+        <section>
+            <title>Group Training</title>
+        </section>
+        <section>
+            <title>FAQ and Support</title>
+        </section>
+    </language>
+</menu>

@@ -1,0 +1,20 @@
+{
+    "es": {
+        "title": "Clases y Actividades",
+        "description": "Explora nuestras clases y actividades disponibles para mejorar tu entrenamiento.",
+        "classSchedules": "Horarios de clases",
+        "trainingTypes": "Tipos de entrenamiento",
+        "availableTrainers": "Entrenadores disponibles",
+        "reserveClass": "Reservar clases",
+        "changeLanguageButton": "Cambiar idioma"
+    },
+    "en": {
+        "title": "Classes and Activities",
+        "description": "Explore our available classes and activities to improve your training.",
+        "classSchedules": "Class Schedules",
+        "trainingTypes": "Training Types",
+        "availableTrainers": "Available Trainers",
+        "reserveClass": "Reserve Classes",
+        "changeLanguageButton": "Change Language"
+    }
+}

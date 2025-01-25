@@ -1,0 +1,20 @@
+{
+    "es": {
+        "title": "Estadísticas Personales",
+        "description": "Monitorea tu progreso y mejora constantemente con nuestras herramientas de seguimiento.",
+        "progressTracking": "Seguimiento de progreso",
+        "visitHistory": "Historial de visitas",
+        "achievedGoals": "Objetivos alcanzados",
+        "compareUsers": "Comparación con otros usuarios",
+        "changeLanguageButton": "Cambiar idioma"
+    },
+    "en": {
+        "title": "Personal Statistics",
+        "description": "Track your progress and improve constantly with our tracking tools.",
+        "progressTracking": "Progress Tracking",
+        "visitHistory": "Visit History",
+        "achievedGoals": "Achieved Goals",
+        "compareUsers": "Compare with Other Users",
+        "changeLanguageButton": "Change Language"
+    }
+}

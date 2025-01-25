@@ -1,0 +1,20 @@
+{
+    "es": {
+        "title": "Eventos Especiales",
+        "description": "Participa en nuestros eventos exclusivos para mejorar tu rendimiento y disfrutar de experiencias únicas.",
+        "sportsTournaments": "Torneos deportivos",
+        "marathonsAndChallenges": "Maratones y retos",
+        "motivationalTalks": "Charlas motivacionales",
+        "groupTraining": "Entrenamiento en grupo",
+        "changeLanguageButton": "Cambiar idioma"
+    },
+    "en": {
+        "title": "Special Events",
+        "description": "Join our exclusive events to boost your performance and enjoy unique experiences.",
+        "sportsTournaments": "Sports Tournaments",
+        "marathonsAndChallenges": "Marathons and Challenges",
+        "motivationalTalks": "Motivational Talks",
+        "groupTraining": "Group Training",
+        "changeLanguageButton": "Change Language"
+    }
+}

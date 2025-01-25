@@ -1,0 +1,20 @@
+{
+    "es": {
+        "title": "Consejos de Entrenamiento",
+        "description": "Obtén las mejores recomendaciones para mejorar tu rendimiento físico y alcanzar tus objetivos.",
+        "suggestedRoutines": "Rutinas sugeridas",
+        "recommendedNutrition": "Nutrición recomendada",
+        "exercisesForBeginners": "Ejercicios para principiantes",
+        "advancedPlans": "Planes avanzados",
+        "changeLanguageButton": "Cambiar idioma"
+    },
+    "en": {
+        "title": "Training Tips",
+        "description": "Get the best recommendations to improve your physical performance and achieve your goals.",
+        "suggestedRoutines": "Suggested Routines",
+        "recommendedNutrition": "Recommended Nutrition",
+        "exercisesForBeginners": "Exercises for Beginners",
+        "advancedPlans": "Advanced Plans",
+        "changeLanguageButton": "Change Language"
+    }
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Planes y Tarifas - Startups</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            height: 100vh;
+            background-color: #343a40;
+            color: white;
+            padding-top: 20px;
+            z-index: 100;
+        }
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <!-- Barra lateral (Sidebar) -->
+    <div class="sidebar">
+        <h3 class="text-center">Dashboard</h3>
+        <ul class="nav flex-column" id="menu-list">
+            <!-- El menú se llenará dinámicamente con JavaScript -->
+        </ul>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="main-content">
+        <button id="change-lang" class="btn btn-secondary ms-auto">Cambiar idioma</button>
+        
+        <div class="container">
+            <h2 id="plans-title">Planes y Tarifas</h2>
+            <ul>
+                <li id="monthly-plan">Plan mensual</li>
+                <li id="annual-plan">Plan anual</li>
+                <li id="special-promotions">Promociones especiales</li>
+                <li id="compare-plans">Comparar planes</li>
+            </ul>
+        </div>
+
+        <!-- Pie de página -->
+        <footer class="bg-dark text-white text-center py-3 mt-5" id="footer-text">
+            <p>&copy; 2025 Startups. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    
+    <script>
+        let userLang = "es"; // Idioma inicial
+        const xhr = new XMLHttpRequest();
+        xhr.open("GET", "../menu/menu.json", true); // Ruta del archivo JSON
+        xhr.onload = function() {
+            if (xhr.status === 200) {
+                const jsonData = JSON.parse(xhr.responseText);
+
+                function loadContent(language) {
+                    const langContent = jsonData[language];
+
+                    // Cargar título, navbar y footer
+                    document.getElementById("page-title").textContent = langContent.title;
+                    document.getElementById("plans-title").textContent = langContent.plans.monthly_plan;
+                    document.getElementById("monthly-plan").textContent = langContent.plans.monthly_plan;
+                    document.getElementById("annual-plan").textContent = langContent.plans.annual_plan;
+                    document.getElementById("special-promotions").textContent = langContent.plans.special_promotions;
+                    document.getElementById("compare-plans").textContent = langContent.plans.compare_plans;
+                    document.getElementById("footer-text").textContent = langContent.footer;
+                    document.getElementById("change-lang").textContent = langContent.change_language;
+
+                    // Actualizar el menú
+                    const menuList = document.getElementById("menu-list");
+                    menuList.innerHTML = "";
+                    langContent.menu_items.forEach(item => {
+                        const li = document.createElement("li");
+                        const a = document.createElement("a");
+                        a.href = item.link;
+                        a.textContent = item.name;
+                        li.appendChild(a);
+                        menuList.appendChild(li);
+                    });
+                }
+
+                loadContent(userLang);
+
+                // Cambiar de idioma al hacer clic en el botón
+                document.getElementById("change-lang").addEventListener("click", function() {
+                    userLang = userLang === "es" ? "en" : "es";
+                    loadContent(userLang);
+                });
+            } else {
+                console.error("Error al cargar el archivo JSON");
+            }
+        };
+        xhr.send();
+    </script>
+
+</body>
+</html>
